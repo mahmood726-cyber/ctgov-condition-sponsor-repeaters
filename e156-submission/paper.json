@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Condition Sponsor Repeaters",
+  "slug": "ctgov-condition-sponsor-repeaters",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "Which sponsors carry the largest missing-results backlogs inside disease families on ClinicalTrials.gov once studies are grouped by condition rather than pooled together? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and linked sponsors to oncology, cardiovascular, and metabolic condition families. The project compares sponsor-level no-results counts, no-results rates, ghost-protocol rates, and visible shares within each selected disease family. In oncology, the National Cancer Institute carried the largest missing-results stock at 909 older studies, ahead of M.D. Anderson Cancer Center at 589. In cardiovascular studies, Assistance Publique-Hôpitaux de Paris reached 100.0 percent no results and Yonsei University 98.6 percent, while Novo Nordisk led metabolic backlogs with 391 studies. Sponsor repeaters therefore change sharply by disease family, and condition-specific audits reveal institutional pockets of silence that disappear inside whole-registry rankings. Condition families and sponsor names are derived from registry text and do not adjudicate network authorship, parent ownership, or off-platform reporting.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which sponsors carry the largest missing-results backlogs inside disease families on ClinicalTrials.gov once studies are grouped by condition rather than pooled together?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and linked sponsors to oncology, cardiovascular, and metabolic condition families."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares sponsor-level no-results counts, no-results rates, ghost-protocol rates, and visible shares within each selected disease family."
+    },
+    {
+      "role": "Primary result",
+      "text": "In oncology, the National Cancer Institute carried the largest missing-results stock at 909 older studies, ahead of M.D. Anderson Cancer Center at 589."
+    },
+    {
+      "role": "Secondary result",
+      "text": "In cardiovascular studies, Assistance Publique-Hôpitaux de Paris reached 100.0 percent no results and Yonsei University 98.6 percent, while Novo Nordisk led metabolic backlogs with 391 studies."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Sponsor repeaters therefore change sharply by disease family, and condition-specific audits reveal institutional pockets of silence that disappear inside whole-registry rankings."
+    },
+    {
+      "role": "Boundary",
+      "text": "Condition families and sponsor names are derived from registry text and do not adjudicate network authorship, parent ownership, or off-platform reporting."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Condition Sponsor Repeaters dashboard",
+    "data": "249,507 eligible older closed interventional studies linked to oncology, cardiovascular, and metabolic condition families and lead sponsors",
+    "code": "https://github.com/mahmood726-cyber/ctgov-condition-sponsor-repeaters",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "Sponsor-level 2-year no-results counts within selected disease families among eligible older CT.gov studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
